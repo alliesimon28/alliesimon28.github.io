@@ -2,96 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <title>Allison Simon Resume</title>
+    <title>Allison Simon CSS Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
-<body>
-  <header>
-    <h1>Allison Simon</h1>
-      <address>
-          You can contact Allison directly at <a href= "mailto:ars287@miami.edu">ars287@miami.edu</a>.
+  <body>
+    <div class = "grid">
+      <header>
+        <div class = "address">
+          <h1>Allison Simon</h1>
+          <address>
+          <p>You can contact Allison directly at <a href= "mailto:ars287@miami.edu">ars287@miami.edu</a>.</p>
           <p> 6650 SW 57th Ave </p>
           <p> Miami, FL 33143 </p>
-        </address>
-        <img src="allison.jpg" alt="allison"/>
-  </header>
+          </address>
+          <img src="allison2.jpg" alt="allison"/>
+        </div>
+      </header>
 
-  <nav>
-    <ul>
-      <li><a href="#summary">Professional Summary</a></li>
-      <li><a href="#work">Work Experience</a></li>
-      <li><a href="#education">Education</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section>
-        <h2 id="summary">Professional Summary</h2>
-          <p>Hard-working, multi-tasking student with outstanding communication and research skills. Dedicated to public interest, communications and governmental studies.</p>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-          <ul>
-            <li>Comprehensive knowledge of Microsoft, Word, and PowerPoint</li>
-            <li>Excellent communication skills </li>
-            <li>Capable of graphic design using Adobe applications including Photoshop, Illustrator and InDesign </li>
-            <li>Strong time management skills</li>
-            <li>Proficient in SPSS </li>
-          </ul>
-    </section>
-
-    <section>
-        <section>
-          <h2 id="work">Work Experience</h2>
-            <article>
-              <h3>Office Assistant</h3>
-              <p><a href="https://www.law.miami.edu/academics/hope">HOPE Pubic Interest Resource Center at University of Miami School of Law</a></p>
-              <ul>
-                <li>Complete office tasks and assistance for directors of a pro bono legal program, provide research on social issues in Miami</li>
-                <li>Complete graphic design projects for advertisements, posters and web pages <li>
-                <li>Provide over-the-phone and in person customer service </li>
-                <li>Audit incoming information and complete background research</li>
-              </ul>
-              <p>September 2017-current</p>
-              </article>
-        </section>
-
-        <section>
-          <article>
-            <h3>Counselor</h3>
-            <p><a href="https://www.iroquoissprings.com">Iroquois Springs Camp</a></p>
-            <ul>
-              <li>Provide 24-hour care for girls ages 9-11 during summers </li>
-              <li>Ensure safety of children and foster a healthy environment </li>
-              <li>Serve as a mentor to campers</li>
-            </ul>
-            <p>June 2017-August 2018</p>
-            </article>
-          </section>
-
-          <section>
-            <article>
-            <h3>Employee/Sales Associate</h3>
-              <p><a href="https://www.gymboree.com">Gymboree Play & Music</a></p>
-              <ul>
-                <li>Care for children ages 2-6 at drop off classes for both sports and art: focus on improving their eye-hand coordination, cognitive and social abilities, and fine motor skills </li>
-                <li>Assist in selling store merchandise, plan crafts and games to engage children</li>
-              </ul>
-              <p>September 2015-June 2017</p>
-              </article>
-          </section>
-        </section>
+      <div class="nav">
+        <nav>
+        <ul id="list">
+          <li><a href="#summary" class="word">Professional Summary</a></li>
+          <li><a href="#skills" class = "word">Skills</a></li>
+          <li><a href="#work" class = "word">Work Experience</a></li>
+          <li><a href="#education" class="word">Education</a></li>
+        </ul>
+        </nav>
+      </div>
 
 
       <section>
-          <h2 id="education">Education</h2>
-            <p>University of Miami<p>
-            <p>Bachelor of Science in Journalism<p>
-            <p>Minor in Political Science<p>
-            <p>Graduation Date: May 2021</p>
+        <div class="summary">
+          <h2 id="summary">Professional Summary</h2>
+            <p>Hard-working, multi-tasking student with outstanding communication and research skills.  Dedicated to public interest, communications and governmental studies.</p>
+        </div>
       </section>
-  </main>
 
+      <section>
+        <div class="skills">
+          <h2 id="skills">Skills</h2>
+            <ul>
+              <li>Comprehensive knowledge of Microsoft, Word, and PowerPoint</li>
+              <li>Excellent communication skills </li>
+              <li>Capable of graphic design using Adobe applications including Photoshop, Illustrator and InDesign </li>
+              <li>Strong time management skills</li>
+              <li>Proficient in SPSS </li>
+            </ul>
+        </div>
+      </section>
+
+  <section>
+        <div class="work">
+        <h2 id="work">Work Experience</h2>
+          <article>
+            <h3>Office Assistant</h3>
+            <p><a href="https://www.law.miami.edu/academics/hope">HOPE Pubic Interest Resource Center at University of Miami School of Law</a></p>
+            <ul>
+              <li>Complete office tasks and assistance for directors of a pro bono legal program, provide research on social issues in Miami</li>
+              <li>Complete graphic design projects for advertisements, posters and web pages </li>
+              <li>Provide over-the-phone and in person customer service </li>
+              <li>Audit incoming information and complete background research</li>
+            </ul>
+            <p>September 2017-current</p>
+            </article>
+
+        <article>
+          <h3>Counselor</h3>
+          <p><a href="https://www.iroquoissprings.com">Iroquois Springs Camp</a></p>
+          <ul>
+            <li>Provide 24-hour care for girls ages 9-11 during summers </li>
+            <li>Ensure safety of children and foster a healthy environment </li>
+            <li>Serve as a mentor to campers</li>
+          </ul>
+          <p>June 2017-August 2018</p>
+          </article>
+
+          <article>
+            <h3>Employee/Sales Associate</h3>
+              <p><a href="https://www.gymboree.com">Gymboree Play & Music</a></p>
+              <ul>
+              <li>Care for children ages 2-6 at drop off classes for both sports and art: focus on improving their  eye-hand coordination, cognitive and social abilities, and fine motor skills </li>
+              <li>Assist in selling store merchandise,  plan crafts and games to engage children</li>
+              </ul>
+              <p>September 2015-June 2017</p>
+          </article>
+          </div>
+    </section>
+
+    <section>
+      <div class="education">
+        <h2 id="education">Education</h2>
+          <p>University of Miami</p>
+          <p>Bachelor of Science in Journalism</p>
+          <p>Minor in Political Science<p>
+          <p>Graduation Date: May 2021</p>
+      </div>
+    </section>
+
+  </div>
 </body>
 </html>
